@@ -15,8 +15,8 @@ public class CalculatorTest {
     @Test
     public void testSumString() {
         Calculator calc = new Calculator();
-        String actualResult = calc.sum("6", "0");
-        String expectedResult = "6";
+        String actualResult = calc.sum("6", "1");
+        String expectedResult = "7";
         Assertions.assertEquals(actualResult, expectedResult);
     }
 
